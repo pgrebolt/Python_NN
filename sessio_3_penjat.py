@@ -27,7 +27,6 @@ while victoria == False:
 		# Imprimim l'estat del joc
 		for lletra in paraula: #AIXÒ ES POT POSAR COM UNA FUNCIÓ
 			if lletra in lletres_trobades:
-				encerts += 1
 				print(lletra, end='')
 			else:
 				print("*", end='')
