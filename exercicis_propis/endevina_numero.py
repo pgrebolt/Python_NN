@@ -15,7 +15,7 @@ while not endevinat:
     intent = int(input("Introdueix un número: ")) # passem l'input a int
     if intent in intents:
         print("Ja has provat aquest número. Prova'n un altre.")
-        continue # per tornar al princippi del while
+        continue # per tornar al principi del while
         
     # Afegim l'intent a la llista. Només arribem aquí si hem superat l'if anterior
     intents.append(intent) 
